@@ -1,0 +1,37 @@
+{
+  "name": "hrank-qa-frontend",
+  "version": "1.0.0",
+  "description": "Hacker Rank QA front-end test template (NodeJS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --ignore-path .gitignore ./src/*",
+    "prettier:check": "prettier --check src/**/*.{ts,json,js,tsx,graphql,md,yml,yaml,json}",
+    "prettier:fix": "prettier --write src/**/*.{ts,json,js,tsx,graphql,md,yml,yaml,json}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zipMoney/hrank-qa-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zipMoney/hrank-qa-frontend/issues"
+  },
+  "homepage": "https://github.com/zipMoney/hrank-qa-frontend#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "dotenv": "^9.0.2",
+    "eslint": "^7.13.0",
+    "jest": "^26.6.3",
+    "jest-html-reporters": "^2.1.6",
+    "jest-playwright-preset": "^1.5.2",
+    "playwright": "^1.11.0",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
+  }
+}
